@@ -64,7 +64,7 @@ public class Topic_02_Selenium_Locator {
         driver.findElement(By.cssSelector(".page-title"));
         //css with name
         driver.findElement(By.cssSelector("input[name='FirstName']"));
-        //css with tagName
+        //css with tagNames
         driver.findElement((By.cssSelector("input")));
         //css with link
         driver.findElement(By.cssSelector("a[href='/customer/addresses']"));
